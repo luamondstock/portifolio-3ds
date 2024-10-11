@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+:root{
+    --fonte-titulo: "Abril Fatface", serif;
+    --fonte-text: "Libre Baskerville", serif;
+    --timberwolf: #d6d2d2ff;
+    --pale-purple: #f1e4f3ff;
+    --orchid-pink: #f4bbd3ff;
+    --persian-pink: #f686bdff;
+    --cyclamen: #fe5d9fff;
+    --pretinho: rgb(0, 0, 0);
+    --grape: #642ca9ff;
+    --persian-rose: #ff36abff;
+    --rose-pink: #ff74d4ff;
+
+
+}
+
+body{
+    font-family: var(--fonte-text);
+    background-color: var(--persian-pink);
+}
