@@ -23,5 +23,23 @@
 
 body{
     font-family: var(--fonte-text);
-    background-color: var(--persian-pink);
+    background-color: var(--orchid-pink);
+}
+
+img-thumbnail{
+    border: 2px solid var(--grape)
+}
+h1,h2,h3{
+    font-family :var(--fonte-titulo);
+    color: var(--persian-rose)
+}
+
+
+.card{
+    background-color: var(--cor-secundaria);
+    color: var(--cor-letra);
+}
+
+footer a{
+    color: var(--grape);
 }
