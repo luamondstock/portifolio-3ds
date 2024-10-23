@@ -27,20 +27,24 @@ body{
 }
 
 img-thumbnail{
-    border: 2px solid var(--grape)
+    border: 2px solid var(--grape);
 }
 h1,h2,h3{
     font-family :var(--fonte-titulo);
-    color: var(--persian-rose)
+    color: var(--persian-rose);
 }
 
 
 .card{
-    background-color: var(--cor-secundaria);
+    background-color: var(--persian-pink);
     color: var(--cor-letra);
+    text-decoration: none;
 }
 
-footer a{
+.footer-link{
     color: var(--grape);
-    
+    text-decoration: none;
+    font-size: 1.2rem;
+    bottom:var(--cyclamen);
+
 }
