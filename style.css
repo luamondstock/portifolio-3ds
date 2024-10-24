@@ -41,10 +41,32 @@ h1,h2,h3{
     text-decoration: none;
 }
 
-.footer-link{
+.card-title{
+    font-family: var(--fonte-titulo);
     color: var(--grape);
-    text-decoration: none;
-    font-size: 1.2rem;
-    bottom:var(--cyclamen);
+}
 
+.btn:hover{
+    background-color: var(--persian-pink);
+    color: var(--pretinho);
+    transition: 1s;
+}
+
+
+a{
+    color: var(--persian-pink);
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+a:hover {
+    background-color: var(--);
+    color: var(--persian-rose);
+    transition: 1s;
+}
+
+.footer-link{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: var(--grape);
 }
