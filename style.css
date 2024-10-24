@@ -47,14 +47,14 @@ h1,h2,h3{
 }
 
 .btn:hover{
-    background-color: var(--persian-pink);
+    background-color: var(--orchid-pink);
     color: var(--pretinho);
     transition: 1s;
 }
 
 
 a{
-    color: var(--persian-pink);
+    color: var(--orchid-pink);
     text-decoration: none;
     font-size: 1rem;
 }
