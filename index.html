@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">  
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Portifólio Luanna</title>
@@ -11,7 +12,7 @@
 <body>
     <header class="container text-center">
     <img class="img-thumbnail rounded-circle w-25" src="img/fotinha.png" alt="Eu">
-    <p>Eu sou a Luanna R. Mondstock</p>
+    <p>Eu sou a Luanna </p>
     <h1>Sou estudante do 3° ano de Desenvolvimento de Sistemas</h1>
     <p>Estou aprendendo linguagens de programação.</p>
     <p>Nas horas vagas gosto de ler. </p>
@@ -28,11 +29,12 @@
         <h2>Meus Projetos</h2>
         <div class="row justify-content-around">
             <div class="col-md-4 mt-3">
-                <div class="card" style="width: rem-18">
+                <div class="card" style="height: 25rem; width: 18rem;">
                     <img src="img/numerosecreto.png" class="card-img-top" alt="Número Secreto">
                     <div class="card-body">
                         <h5 class="card-title">Número Secreto</h5>
                         <p class="card-text">Site de acertar o número secreto.</p>
+                        <p>Feito em html e JavaScript, utilizando API de reconhecimento de voz.</p>
                         <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#modal01">
                             Saiba mais...
                         </button>
@@ -41,11 +43,11 @@
         </div>
 
         <div class="col-md-4 mt-3">
-            <div class="card" style="width: rem-18">
+            <div class="card" style="height: 25rem; width: 18rem;">
                 <img src="img/vocedecide.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title"> Você Decide </h5>
-                    <p class="card-text"> Ecolha as decisões futuras do personagem. </p>
+                    <p class="card-text"> O jogo apresenta uma sequência de perguntas para o usuário, permitindo que ele faça escolhas, e com base nessas escolhas, o desenrolar da história muda. </p>
                     <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#modal02">
                         Saiba mais...
                     </button>
@@ -54,7 +56,7 @@
         </div>
 
         <div class="col-md-4 mt-3">
-            <div class="card" style="width: rem-18">
+            <div class="card" style="height: 25rem; width: 18rem;">
                 <img src="img/grafico.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title"> Gestão de dados </h5>
@@ -67,11 +69,11 @@
         </div>
 
         <div class="col-md-4 mt-3">
-            <div class="card" style="width: rem-18">
+            <div class="card" style="height: 25rem; width: 18rem;">
                 <img src="img/pythonbiblioteca.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title"> Biblioteca Moon </h5>
-                    <p class="card-text">Feito em python.</p>
+                    <p class="card-text">Esse código cria um pequeno sistema de gerenciamento de livros que funciona via linha de comando.</p> 
                         <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#modal04">
                         Saiba mais...
                     </button>
@@ -80,24 +82,11 @@
         </div>
 
         <div class="col-md-4 mt-3">
-            <div class="card" style="width: rem-18">
-                <img src="img/pythonBD.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Banco de Dados em Python</h5>
-                    <p class="card-text"> Armazenamento de dados em Python.</p>
-                        <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#modal05">
-                        Saiba mais...
-                    </button>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-4 mt-3">
-            <div class="card" style="width: rem-18">
+            <div class="card" style="height: 25rem; width: 18rem;">
                 <img src="img/flappybirf.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title"> Flappy Bird  </h5>
-                    <p class="card-text"> Flappy Bird  </p>
+                    <p class="card-text">Jogo de plataforma mobile desenvolvido em Javascript. </p>
                     <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#modal06">
                         Saiba mais...
                     </button>
@@ -105,9 +94,20 @@
             </div>
         </div>
 
-    </main>
+        <div class="col-md-4 mt-3">
+          <div class="card" style="height: 25rem; width: 18rem;">
+              <img src="img/pythonBD.png" class="card-img-top pt-3" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title">Banco de Dados em Python</h5>
+                  <p class="card-text"> Armazenamento de dados em Python.</p>
+                      <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#modal05">
+                      Saiba mais...
+                  </button>
+              </div>
+          </div>
+      </div>
 
-    <div class="modal fade" id="modal01" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+     <div class="modal fade" id="modal01" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
@@ -137,9 +137,14 @@
             </div>
             <div class="modal-body">
                 <img src="img/vocedecide.png" class="card-img-top" alt="NumeroSecreto">
-              <p>Este código HTML cria uma página para um jogo em que o usuário tenta adivinhar um número secreto.</p>
-              <p> O conteúdo inclui um título, uma indicação do intervalo numérico (de 0 a 100) e uma área para exibir mensagens interativas sobre os palpites do usuário. </p>
-              <p>O layout é estilizado por um arquivo CSS externo e a funcionalidade do jogo é implementada por três scripts JavaScript, que lidam com o sorteio do número, reconhecimento de voz e validação dos palpites.</p>
+                <p>O código começa buscando diferentes seções da página HTML, como a área principal, perguntas, alternativas e o resultado, usando document.querySelector.</p>
+                <p>Depois, define um conjunto de perguntas em formato de um array de objetos, cada uma com um enunciado e algumas alternativas de resposta. </p>
+                <p> cada escolha, existe uma consequência, que é uma afirmação que será apresentada ao jogador no final da história.</p>
+                <p>A função principal, mostrarPerguntas, exibe a pergunta atual e suas alternativas. </p>
+                <p>Quando o jogador seleciona uma opção, o código registra a resposta, adiciona essa informação à narrativa final e passa para a próxima pergunta.</p>
+                <p>Isso é feito através da função respostaSelecionada, que também atualiza o contador de perguntas (atual) e chama a função mostrarPerguntas novamente.</p>
+                <p>Quando todas as perguntas forem respondidas, a função mostraResultado exibe o resumo das escolhas feitas pelo jogador, formando uma narrativa baseada nas decisões ao longo do jogo.</p>
+                <p>Em resumo, é um sistema de história interativa que muda com base nas escolhas do usuário!</p>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-outline-light"> <a href="https://luamondstock.github.io/2024luavocedecide/">Site</a></button>
@@ -180,7 +185,7 @@
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <img src="img/pythonbiblioteca.png" class="card-img-top" alt="NumeroSecreto">
+                <img src="img/pythonbiblioteca.png" class="card-img-top" alt="python">
               <p>O código em Python é um sistema simples para gerenciar livros numa biblioteca.</p> 
               <p>Ele permite cadastrar novos livros, listar os cadastrados e ativar ou desativar seu status.</p>
               <p>O programa usa um menu interativo e armazena os dados em uma lista de dicionários.</div>
@@ -193,25 +198,7 @@
         </div>
       </div>
 
-      <div class="modal fade" id="modal05" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h1 class="modal-title fs-5" id="exampleModalLabel">Micro Banco de Dados em Python</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <img src="img/pythonBD.png" class="card-img-top" alt="python">
-              <p>Este código HTML cria uma página para um jogo em que o usuário tenta adivinhar um número secreto.</p>
-              <p> O conteúdo inclui um título, uma indicação do intervalo numérico (de 0 a 100) e uma área para exibir mensagens interativas sobre os palpites do usuário. </p>
-              <p>O layout é estilizado por um arquivo CSS externo e a funcionalidade do jogo é implementada por três scripts JavaScript, que lidam com o sorteio do número, reconhecimento de voz e validação dos palpites.</p>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-outline-light"><a href="https://github.com/luamondstock/livrospython">Repositório</a></button>
-            </div>
-          </div>
-        </div>
-      </div>
+      
 
       <div class="modal fade" id="modal06" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -227,22 +214,47 @@
                 <p>A interface é colorida e amigável, proporcionando uma experiência divertida. </p>         
              </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-outline-light"> <a href="https://luamondstock.github.io/sortear-numero-3DS-2024/">Site</a></button>
+              <button type="button" class="btn btn-outline-light"> <a href="https://luamondstock.github.io/flappybird/">Site</a></button>
               <button type="button" class="btn btn-outline-light"><a href="https://github.com/luamondstock/flappybird">Repositório</a></button>
             </div>
           </div>
         </div>
       </div>
 
-    <footer class="container pt-5 mt-5">
-        <h2>Entre em contato:</h2>
-        <div>
-          <a class= "footer-link me-3" href="https://github.com/luamondstock">GitHub</a>
-          <a class="footer-link m-3" href="https://www.linkedin.com/in/luanna-rodrigues-mondstock-41392030a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a>
-        </div> 
-        <p class="my-2">© Copyright 2024. Produzido por Luanna Rodrigues</p>
+      <div class="modal fade" id="modal05" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Micro Banco de Dados em Python</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="img/pythonBD.png" class="card-img-top" alt="python">
+                <p>Três objetos de livros são criados: livro_Divergente, livro_Imperfeitos e livro_Barão, cada um com seu título, gênero e um código de identificação único.
+                 A função alterar_estado é chamada para o livro "Divergente", provavelmente para mudar o status de disponibilidade ou estado do livro.
+                 Ao rodar o script diretamente, ele executa essa função, listando as informações dos livros cadastrados.</p>           
+              </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-light"><a href="https://github.com/luamondstock/livrospython">Repositório</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+    <footer class="container text-center pt-3">
+      <h2>Entre em contato:</h2>
+      <div>
+        <i class="fa-brands fa-github"></i>
+        <a class=" link me-3" href="https://github.com/luamondstock">Github</a>
+        <i class="fa-brands fa-linkedin"></i>
+        <a class="link" href="https://www.linkedin.com/in/luanna-rodrigues-mondstock-41392030a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a>
+      </div>
+        <p class="my-2">&copy; Copyright 2024. Produzido por Luanna R. Mondstock </p>
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 
 </body>
 </html>

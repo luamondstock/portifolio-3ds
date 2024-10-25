@@ -13,6 +13,7 @@
     --orchid-pink: #f4bbd3ff;
     --persian-pink: #f686bdff;
     --cyclamen: #fe5d9fff;
+    --rosamedio:rgb(240, 188, 209);
     --pretinho: rgb(0, 0, 0);
     --grape: #642ca9ff;
     --persian-rose: #ff36abff;
@@ -41,20 +42,50 @@ h1,h2,h3{
     text-decoration: none;
 }
 
-.card-title{
+
+.modal-header{
+    color: var(--preto);
+    font-family: var(--fonte-texto);
+    background-color: var(--orchid-pink);
+}
+
+.modal-body {
+    color: var(--preto);
+    font-family: var(--fonte-texto);
+    background-color: var(--orchid-pink);
+}
+
+.modal-footer{
     font-family: var(--fonte-titulo);
+    background-color: var(--orchid-pink);
+    color: var(--branco);
+}
+.modal-footer a {
     color: var(--grape);
 }
 
+.card-title{
+    font-family: var(--fonte-titulo);
+    color: var(--grape);
+    text-align: center;
+}
+
 .btn:hover{
-    background-color: var(--orchid-pink);
+    background-color: var(--pale-purple);
     color: var(--pretinho);
     transition: 1s;
+    text-align: center;
+}
+
+.btn:{
+    color: var(--);
+    transition: 1s;
+    text-align: center;
 }
 
 
 a{
-    color: var(--orchid-pink);
+    color: var(--grape);
     text-decoration: none;
     font-size: 1rem;
 }
@@ -67,6 +98,13 @@ a:hover {
 
 .footer-link{
     text-decoration: none;
+    text-align: center;
     font-size: 1.2em;
+    font-family: var(--fonte-titulo);
     color: var(--grape);
+    position: relative;
+    margin: center;
 }
+
+
+
